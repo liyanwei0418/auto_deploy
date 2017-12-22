@@ -3,7 +3,7 @@ import time
 
 import configer_util
 
-
+#1
 class SSHConnection:
 
     def __init__(self, namespace):
@@ -18,8 +18,6 @@ class SSHConnection:
         self.shell_path = conf_util.get(namespace, 'shell_path')
         self.source_file = conf_util.get(namespace, 'source_file')
         self.client = None
-        self.sftp = None
-
         self.ssh_connection()
         self.open_sftp()
 
