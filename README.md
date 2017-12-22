@@ -1,2 +1,2 @@
 # auto_deploy
-python自动部署
+使用python自动部署项目
